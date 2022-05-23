@@ -1,4 +1,5 @@
-﻿namespace CalculateAreaLibrary
+﻿
+namespace DisplayInformationLibrary
 {
     public enum EnumCommands
     {

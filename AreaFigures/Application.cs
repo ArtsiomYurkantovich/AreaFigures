@@ -1,6 +1,8 @@
-﻿using System;
+﻿using CalculateAreaLibrary;
+using DisplayInformationLibrary;
+using System;
 
-namespace CalculateAreaLibrary
+namespace AreaFigures
 {
     public class Application
     {

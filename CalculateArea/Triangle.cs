@@ -1,4 +1,5 @@
-﻿using System;
+﻿using DisplayInformationLibrary;
+using System;
 
 namespace CalculateAreaLibrary
 {
@@ -61,12 +62,12 @@ namespace CalculateAreaLibrary
                sides[1] == Math.Sqrt(Math.Pow(sides[0], 2) + Math.Pow(sides[2], 2)) ||
                sides[2] == Math.Sqrt(Math.Pow(sides[0], 2) + Math.Pow(sides[1], 2)))
             {
-                DisplayInfo.ShowAttentionMsg("The triangle is right angled");
+                DisplayInfo.ShowAnswernMsg("The triangle is right angled");
                 isTraenglRight = true;
             }
             else
             {
-                DisplayInfo.ShowErrorMsg("The triangle is not right angled");
+                DisplayInfo.ShowAnswernMsg("The triangle is not right angled");
                 isTraenglRight = false;
             }
 

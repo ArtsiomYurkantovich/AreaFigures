@@ -1,6 +1,7 @@
 ﻿using System;
 
-namespace CalculateAreaLibrary
+
+namespace DisplayInformationLibrary
 {
     public static class DisplayInfo
     {

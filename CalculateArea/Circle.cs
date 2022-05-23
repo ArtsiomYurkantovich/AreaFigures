@@ -1,4 +1,5 @@
-﻿using System;
+﻿using DisplayInformationLibrary;
+using System;
 
 namespace CalculateAreaLibrary
 {
